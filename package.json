@@ -1,5 +1,5 @@
 {
-  "name": "haikunator",
+  "name": "haikunator-indonesia",
   "version": "1.2.3",
   "description": "Generate Heroku-like random names to use in your node applications.",
   "main": "lib/haikunator.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Atrox/haikunatorjs"
+    "url": "https://github.com/rkkautsar/haikunatorjs"
   },
   "keywords": [
     "haikunator",
@@ -22,12 +22,12 @@
     "generator",
     "haikunate"
   ],
-  "author": "Atrox <mail@atrox.me>",
+  "author": "Rakha Kanz Kautsar <rkkautsar@gmail.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/Atrox/haikunatorjs/issues"
+    "url": "https://github.com/rkkautsar/haikunatorjs-indonesia/issues"
   },
-  "homepage": "https://github.com/Atrox/haikunatorjs",
+  "homepage": "https://github.com/rkkautsar/haikunatorjs-indonesia",
   "devDependencies": {
     "ava": "^0.15.0",
     "babel-cli": "^6.9.0",
