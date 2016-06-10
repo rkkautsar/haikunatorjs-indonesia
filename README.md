@@ -1,17 +1,11 @@
-# HaikunatorJS
+# HaikunatorJS-Indonesia
 
-[![Build Status](https://img.shields.io/travis/Atrox/haikunatorjs.svg?style=flat-square)](https://travis-ci.org/Atrox/haikunatorjs)
-[![Latest Version](https://img.shields.io/npm/v/haikunator.svg?style=flat-square)](https://www.npmjs.com/package/haikunator)
-[![Dependency Status](https://img.shields.io/david/atrox/haikunatorjs.svg?style=flat-square)](https://david-dm.org/atrox/haikunatorjs)
-[![devDependency Status](https://img.shields.io/david/dev/atrox/haikunatorjs.svg?style=flat-square)](https://david-dm.org/atrox/haikunatorjs#info=devDependencies)
-[![Coverage Status](https://img.shields.io/coveralls/Atrox/haikunatorjs.svg?style=flat-square)](https://coveralls.io/r/Atrox/haikunatorjs)
-
-Generate Heroku-like random names to use in your node applications.
+Generate Heroku-like random names to use in your node applications, in Bahasa Indonesia.
 
 ## Installation
 
 ```
-npm install haikunator
+npm install haikunator-indonesia
 ```
 
 ## Usage
@@ -22,28 +16,28 @@ Haikunator is pretty simple.
 var haikunate = require("haikunator");
 
 // default usage
-haikunate() // => "wispy-dust-1337"
+haikunate() // => "daun-bundar-1161"
 
 // custom length (default=4)
-haikunate({tokenLength: 6}) // => "patient-king-887265"
+haikunate({tokenLength: 6}) // => "siput-tulus-352420"
 
 // use hex instead of numbers
-haikunate({tokenHex: true}) // => "purple-breeze-98e1"
+haikunate({tokenHex: true}) // => "pohon-nasionalis-df2d"
 
 // use custom chars instead of numbers/hex
-haikunate({tokenChars: "HAIKUNATE"}) // => "summer-atom-IHEA"
+haikunate({tokenChars: "HAIKUNATE"}) // => "gelombang-kosong-EUIA"
 
 // don't include a token
-haikunate({tokenLength: 0}) // => "cold-wildflower"
+haikunate({tokenLength: 0}) // => "panda-universal"
 
 // use a different delimiter
-haikunate({delimiter: "."}) // => "restless.sea.7976"
+haikunate({delimiter: "."}) // => "bebek.modern.1462"
 
 // no token, space delimiter
-haikunate({tokenLength: 0, delimiter: " "}) // => "delicate haze"
+haikunate({tokenLength: 0, delimiter: " "}) // => "kue kelabu"
 
 // no token, empty delimiter
-haikunate({tokenLength: 0, delimiter: ""}) // => "billowingleaf"
+haikunate({tokenLength: 0, delimiter: ""}) // => "sopsejati"
 ```
 
 ## Options
