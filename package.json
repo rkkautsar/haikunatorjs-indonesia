@@ -1,6 +1,6 @@
 {
   "name": "haikunator-indonesia",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "Generate Heroku-like random names to use in your node applications, in Bahasa Indonesia.",
   "main": "lib/haikunator.js",
   "scripts": {
